@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Sensors</title>
+  <link rel="stylesheet" type="text/css" media="screen" href="style/main.css" />
+  <script src="js/handlebars.runtime.min.js"></script>
+  <script src="js/handlebars.sensors.js"></script>
+  <script src="js/Chart.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+    <div class="table">
+        <h1>Get data from</h1>
+        <div id="myTable">
+          </div>
+          <div>
+            <button type="submit" id="1hrs">1 Hours</button>
+            <button type="submit" id="24hrs">24 Hours</button>
+            <button type="submit" id="48hrs">48 Hours</button>
+          </div>
+    </div>
+    <h1>Chart</h1>
+    <div class="chart">
+        <div style="position: relative; height:40vh; width:80vw" class="myChartDiv">
+          <canvas id="myChart"></canvas>
+        </div>
+    </div>
+</body>
+</html>

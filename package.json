@@ -1,0 +1,22 @@
+{
+  "name": "aflevering-4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Allan",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "chart.js": "^2.7.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "sqlite3": "^3.1.13",
+    "node-dht-sensor": "0.0.34"
+  },
+  "devDependencies": {}
+}

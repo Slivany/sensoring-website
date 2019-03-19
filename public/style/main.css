@@ -1,0 +1,25 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .chart {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+  }
+}

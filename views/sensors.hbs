@@ -1,0 +1,8 @@
+<table>
+  <thead><tr><th>Time</th><th>Humidity</th><th>Temperature</th></tr></thead>
+<tbody>
+{{#each sensors}}
+  <tr><td>{{time}}</td><td>{{humidity}}%</td><td>{{temperature}}°C</td></tr>
+{{/each}}
+</tbody>
+</table>
